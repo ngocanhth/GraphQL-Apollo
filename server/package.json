@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Apllo Graphql",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ngoc anh",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-core": "^3.7.0",
+    "apollo-server-express": "^2.19.2",
+    "express": "^4.18.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}
